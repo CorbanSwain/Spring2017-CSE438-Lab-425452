@@ -107,7 +107,7 @@ class ViewController: UIViewController {
     
     func refreshTotal() {
         
-        // FIXME: Include Decimals
+        // FIXME: Include Commas for longer numbers
         let total = ( (price * (1 - discount) *  Double(quant) ) * (1 + tax) )
         totalLabel.text = String(format: "$%2.2f", total)
         
