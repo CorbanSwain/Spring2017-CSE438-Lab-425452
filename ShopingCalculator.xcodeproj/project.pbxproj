@@ -14,6 +14,8 @@
 		1C328FB11E3B417700DEBAA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C328FAF1E3B417700DEBAA2 /* LaunchScreen.storyboard */; };
 		1C328FBC1E3B417700DEBAA2 /* ShopingCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C328FBB1E3B417700DEBAA2 /* ShopingCalculatorTests.swift */; };
 		1C328FC71E3B417700DEBAA2 /* ShopingCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C328FC61E3B417700DEBAA2 /* ShopingCalculatorUITests.swift */; };
+		1C59D7631E40D83400E7987B /* KeyboardAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C59D7621E40D83400E7987B /* KeyboardAccessoryView.xib */; };
+		1CD566F71E40DC3000AD44E9 /* KeyboardAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD566F61E40DC3000AD44E9 /* KeyboardAccessoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1C328FC21E3B417700DEBAA2 /* ShopingCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopingCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C328FC61E3B417700DEBAA2 /* ShopingCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopingCalculatorUITests.swift; sourceTree = "<group>"; };
 		1C328FC81E3B417700DEBAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C59D7621E40D83400E7987B /* KeyboardAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KeyboardAccessoryView.xib; path = ../KeyboardAccessoryView.xib; sourceTree = "<group>"; };
+		1CD566F61E40DC3000AD44E9 /* KeyboardAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardAccessoryView.swift; path = ../KeyboardAccessoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		1C328FA51E3B417700DEBAA2 /* ShopingCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				1CD566F81E40DC3E00AD44E9 /* KeyboardAccessoryView */,
 				1C328FA61E3B417700DEBAA2 /* AppDelegate.swift */,
 				1C328FA81E3B417700DEBAA2 /* ViewController.swift */,
 				1C328FAA1E3B417700DEBAA2 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				1C328FC81E3B417700DEBAA2 /* Info.plist */,
 			);
 			path = ShopingCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		1CD566F81E40DC3E00AD44E9 /* KeyboardAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				1CD566F61E40DC3000AD44E9 /* KeyboardAccessoryView.swift */,
+				1C59D7621E40D83400E7987B /* KeyboardAccessoryView.xib */,
+			);
+			name = KeyboardAccessoryView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C59D7631E40D83400E7987B /* KeyboardAccessoryView.xib in Resources */,
 				1C328FB11E3B417700DEBAA2 /* LaunchScreen.storyboard in Resources */,
 				1C328FAE1E3B417700DEBAA2 /* Assets.xcassets in Resources */,
 				1C328FAC1E3B417700DEBAA2 /* Main.storyboard in Resources */,
@@ -263,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C328FA91E3B417700DEBAA2 /* ViewController.swift in Sources */,
+				1CD566F71E40DC3000AD44E9 /* KeyboardAccessoryView.swift in Sources */,
 				1C328FA71E3B417700DEBAA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +530,7 @@
 				1C328FCD1E3B417700DEBAA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C328FCE1E3B417700DEBAA2 /* Build configuration list for PBXNativeTarget "ShopingCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				1C328FD01E3B417700DEBAA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C328FD11E3B417700DEBAA2 /* Build configuration list for PBXNativeTarget "ShopingCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				1C328FD31E3B417700DEBAA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
